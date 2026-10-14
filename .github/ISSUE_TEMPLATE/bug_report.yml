@@ -1,0 +1,30 @@
+name: 🐞 Something doesn't work
+description: Tell us what went wrong in Lumière.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make Lumière better! Please **don't paste personal information** (window titles, websites, calendar links): issues here are public.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: "I clicked …, I expected …, but …"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Lumière version
+      description: Shown in Settings → About.
+      placeholder: "0.6.1"
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostic info (optional, very helpful)
+      description: Settings → About → Diagnostic info → Copy, then paste here. It holds versions and error messages only.
+      render: text
