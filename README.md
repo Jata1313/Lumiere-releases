@@ -30,7 +30,7 @@ using, so you can see where your day really went, without an account, a cloud or
 
 ## ✨ What Lumière does
 
-| | |
+| Feature | What it does for you |
 |---|---|
 | 🕒 **Tracks automatically** | Notes the app and website in front of you, every second. It knows when you're away, and when you're just watching a video or in a call. |
 | 📊 **Shows your day clearly** | A dashboard, a timeline and weekly analytics: active time, focus time, top apps, sites and categories. Click anything to dig in. |
