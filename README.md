@@ -21,7 +21,7 @@ using, so you can see where your day really went, without an account, a cloud or
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard-dark.png">
-  <img src="assets/dashboard-light.png" alt="The Lumière dashboard: active time, focus time, your day and top apps" width="900">
+  <img src="assets/dashboard-light.png" alt="The Lumière dashboard: active time, focus time, a call to review and your day" width="900">
 </picture>
 
 </div>
@@ -53,8 +53,22 @@ using, so you can see where your day really went, without an account, a cloud or
     <td width="50%"><img src="assets/analytics.png" alt="Analytics: your week by category"><p align="center"><b>Analytics</b>: your week by category</p></td>
   </tr>
   <tr>
-    <td width="50%"><img src="assets/calendar.png" alt="Calendar: tracked time, plans and events"><p align="center"><b>Calendar</b>: tracked time, plans and events</p></td>
+    <td width="50%"><img src="assets/calendar.png" alt="Calendar: tracked time and plans, side by side when they overlap"><p align="center"><b>Calendar</b>: tracked time and plans, side by side</p></td>
+    <td width="50%"><img src="assets/recap.png" alt="Weekly recap: last week compared with the week before"><p align="center"><b>Weekly recap</b>: last week at a glance</p></td>
+  </tr>
+  <tr>
     <td width="50%"><img src="assets/focus.png" alt="Focus: set an intention and start a timer"><p align="center"><b>Focus</b>: set an intention, start a timer</p></td>
+    <td width="50%" valign="middle">
+      <b>Also in Lumière</b>
+      <ul>
+        <li>Goals and limits per day or week</li>
+        <li>Projects with automatic rules</li>
+        <li>Private and Pro spaces</li>
+        <li>Reminders, morning brief, end-of-day summary</li>
+        <li>Keyboard shortcuts you can change</li>
+        <li>Spreadsheet export and full backups</li>
+      </ul>
+    </td>
   </tr>
 </table>
 
@@ -65,11 +79,13 @@ using, so you can see where your day really went, without an account, a cloud or
   site name, like `github.com`) and private/incognito windows. Window titles can be turned off.
 - 🌐 **Internet is used for two things only:** calendar links you add yourself, and a small daily
   update check, which you can turn off in **Settings → About**. Nothing about you is ever sent.
+- 📞 **Calls:** only the app's name and the times are noted (never what's said), and nothing
+  counts until you choose to.
 - 🚫 **No AI.** Only fixed, transparent rules that you control.
 
 ## 📥 Install in 1 minute
 
-1. **Download** `Lumiere_<version>_x64-setup.exe` from the [latest release](https://github.com/Jata1313/Lumiere-releases/releases/latest) (about 3 MB).
+1. **Download** `Lumiere_<version>_x64-setup.exe` from the [latest release](https://github.com/Jata1313/Lumiere-releases/releases/latest) (about 3.5 MB).
 2. **Run it.** It installs for your Windows user only, with no admin rights needed.
 3. If Windows shows **"Windows protected your PC"**, click **More info → Run anyway**.
    This appears because Lumière isn't signed with a paid certificate yet; the updates themselves are
@@ -82,7 +98,8 @@ tray (next to the clock); right-click its icon → **Quit Lumière** to stop it.
 
 Lumière checks once a day for a new version and shows **"Update available"**. Nothing installs
 until you click. Every update is signed, and Lumière refuses any file that wasn't signed by its
-developer. See what changed in **Settings → About → What's new**.
+developer. Every version is built and tested on GitHub's own machines before it's published. See
+what changed in **Settings → About → What's new**.
 
 ## ❓ FAQ
 
@@ -115,15 +132,16 @@ delete your data too; if you keep it, it's there if you come back.
 <details>
 <summary><b>Why isn't the source code here?</b></summary>
 <br>
-Lumière is still in beta. The code will be published as open source once it's ready; this
-repository only holds the installers and the signed update files.
+Lumière is still in alpha. The code will be published as open source once it's ready; this
+repository only holds the installers, the signed update files and this page.
 </details>
 
 ## 🐞 Found a bug or have an idea?
 
-[**Open an issue**](https://github.com/Jata1313/Lumiere-releases/issues/new/choose). For a bug, it
+In Lumière: **Settings → About → Report a problem or an idea**, or [open an issue here](https://github.com/Jata1313/Lumiere-releases/issues/new/choose) (a free GitHub account is needed). For a bug, it
 helps a lot to paste the report from **Settings → About → Diagnostic info → Copy**: it contains
-versions and error messages only, never your activity, apps or websites.
+versions and error messages only, never your activity, apps or websites. Issues are public:
+please don't post personal details.
 
 ## 🗺️ Roadmap
 
