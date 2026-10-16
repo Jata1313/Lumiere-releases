@@ -26,6 +26,11 @@ using, so you can see where your day really went, without an account, a cloud or
 
 </div>
 
+> [!NOTE]
+> **Lumière is in alpha.** It works and is used every day, but it's young: you may meet a rough
+> edge. Your feedback shapes it: **Settings → About → Report a problem or an idea**. Your data is
+> backed up automatically every day.
+
 ---
 
 ## ✨ What Lumière does
