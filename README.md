@@ -35,7 +35,9 @@ using, so you can see where your day really went, without an account, a cloud or
 | 🕒 **Tracks automatically** | Notes the app and website in front of you, every second. It knows when you're away, and when you're just watching a video or in a call. |
 | 📊 **Shows your day clearly** | A dashboard, a timeline and weekly analytics: active time, focus time, top apps, sites and categories. Click anything to dig in. |
 | 🎯 **Helps you focus** | A focus timer or Pomodoro, with a gentle nudge when you drift to something else. |
-| 📅 **Fits your calendar** | Plan blocks, add what you did offline, and see your Google Calendar events (read-only) with reminders. |
+| 📅 **Fits your calendar** | Plan blocks, add what you did offline, and see your Google Calendar events with reminders. Send a plan to Google Calendar in one click, or export your plans for Outlook and Apple Calendar. |
+| 📞 **Notices what happens alongside** | In a call or a meeting while another app was in front? Lumière asks whether to count it. Nothing changes on its own. |
+| 🗓️ **Recaps your week** | Every Monday: your time, focus and top categories compared with the week before. |
 | 🗂️ **Organizes for you** | Categories and projects filled in by your own simple rules, plus daily or weekly goals. |
 | 🧳 **Keeps work and life apart** | Separate *Private* and *Pro* spaces, switched by hand or on a schedule. |
 | 🔄 **Stays up to date** | New versions are offered in the app and install in one click. Your data can be exported anytime. |
@@ -123,6 +125,7 @@ versions and error messages only, never your activity, apps or websites.
 - [x] Automatic tracking, dashboard, timeline, analytics
 - [x] Focus sessions, calendar, goals, reminders, spaces
 - [x] One-click signed updates, data export, diagnostics
+- [x] Calls and meetings alongside your apps, weekly recap, Google Calendar export
 - [ ] 🍎 macOS version
 - [ ] 🇫🇷 French translation
 - [ ] 🔓 Open source code
